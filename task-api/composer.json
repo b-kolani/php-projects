@@ -1,0 +1,19 @@
+{
+    "name": "kolani/task-api",
+    "description": "REST API for task management",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kolani\\TaskApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kolani Biman",
+            "email": "biman.kolani97@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
