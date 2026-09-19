@@ -1,6 +1,6 @@
 ## 📦 DÉPENDANCES & VENDOR
 # On ne versionne jamais les bibliothèques tierces installées par Composer
-/vendor/
+vendor/
 
 ## 🔐 SÉCURITÉ ET CONFIGURATION LOCALE
 # Fichiers contenant les mots de passe, clés d'API et accès BDD
