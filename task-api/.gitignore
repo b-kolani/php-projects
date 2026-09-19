@@ -1,0 +1,36 @@
+## 📦 DÉPENDANCES & VENDOR
+# On ne versionne jamais les bibliothèques tierces installées par Composer
+/vendor/
+
+## 🔐 SÉCURITÉ ET CONFIGURATION LOCALE
+# Fichiers contenant les mots de passe, clés d'API et accès BDD
+.env
+.env.local
+.env.*.local
+config.local.php
+
+## 🛠️ OUTILS ET IDE (VS Code, PhpStorm, etc.)
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
+
+## 📊 LOGS, CACHE & DOSSIERS TEMPORAIRES
+*.log
+/var/log/
+/var/cache/
+/storage/logs/
+/storage/framework/views/
+/storage/framework/cache/
+.phpunit.result.cache
+
+## 💻 ASSETS & NODE (Si vous utilisez du Front-End / Webpack / Vite)
+node_modules/
+/public/build/
+/public/storage
+.npm/
